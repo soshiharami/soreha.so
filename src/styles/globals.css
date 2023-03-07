@@ -27,6 +27,20 @@
   --color-primary-900: rgb(var(--tw-color-primary-900)); /* #0c4a6e */
   /* #endregion  /**======== Primary Color =========== */
 }
+#gaming {
+  /* 横長で虹色を作る */
+  background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0%
+    center/200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gaming 2s linear infinite;
+}
+@keyframes gaming {
+  /* backgroundを移動させる */
+  100% {
+    background-position-x: 200%;
+  }
+}
 
 @layer base {
   /* inter var - latin */

@@ -44,7 +44,9 @@ export default function HomePage() {
       <main>
         <section className='bg-white'>
           <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-            <h1 className='mt-4'>それはそう</h1>
+            <h1 className='mt-4' id='gaming'>
+              それはそう
+            </h1>
             <footer className='absolute bottom-2 text-gray-700'>
               © {new Date().getFullYear()} By{' '}
               <UnderlineLink href='https://twitter.com/soshi_harami'>
